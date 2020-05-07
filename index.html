@@ -1,0 +1,60 @@
+<head>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  <link rel="stylesheet" href="main.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header class="main-header">
+    <div>
+      <a href="index.html" class="main-header__brand">
+        SensVu
+      </a>
+    </div>
+    <nav class="main-nav">
+      <ul class="main-nav__items">
+        <li class="main-nav__item">
+          <a href="#">Home</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#">XXX</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="overlay"></div>
+    <div class="modal">
+      <form class="modal-form__add--device" id="add-device">
+        <div class="modal-close--container">
+          <i class="fas fa-plus-circle modal-close"></i>
+        </div>
+        <h3 class="modal-title">Add new device</h3>
+        <label for="name"> Device Name</label>
+        <input id="name" type="text" />
+        <label for="room"> Room Name</label>
+        <input id="room" type="text" />
+        <label for="xxx"> xxx Name</label>
+        <input id="xxx" type="text" />
+        <label for="yyy"> yyy Name</label>
+        <input id="yyy" type="text" />
+        <div class="modal-buttons">
+          <button type="submit">Add</button>
+        </div>
+      </form>
+    </div>
+    <section class="background">
+      <p>There are no sensors added yet!</p>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <div class="background-footer">
+      <i class="button__add fas fa-plus-circle"></i>
+      <span class="tooltip">Add sensor</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
