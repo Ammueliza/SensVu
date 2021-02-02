@@ -23,3 +23,6 @@ function openModal() {
   modal.classList.add("show");
   overlay.classList.add("show");
 }
+
+fetch("https://api.thingspeak.com/channels/9/fields/1.json?results=2")
+.then(response =>  console.log(response.json()));
