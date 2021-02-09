@@ -8,7 +8,7 @@ We started this project to effectively manage the humidity of the home and allev
 
 **High Level Diagram:**
 
-![](RackMultipart20210209-4-b1sput_html_193825b7482828b5.png)
+![](resources/arch1.png)
 
 **Project Description**
 
